@@ -70,6 +70,19 @@ mpiexec -n 1 python run_training.py \
   --train_name 'train_TDiff' 
 ```
 
+a training sample format for reference, You need to organize the data into this format to facilitate training.
+```bash
+|-- 000000_1
+| |-- img.png
+| |-- wc.exr
+| |-- uv.exr
+| |-- recon.png
+| |-- alb.png
+| |-- dmap.exr
+| |-- norm.exr
+| `-- bm.mat
+```
+
 ### 📝Download link of inference results in DocUNet and DIR300 benchmarks
 - Google Drive
   
